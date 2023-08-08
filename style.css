@@ -1,20 +1,55 @@
 *{
     color:grey;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    line-height: 1.5;
 }
 #img{
-    width:500px;
-    position:relative;
+    width:100px;
+    display:inline-block;
 }
 
 ul{
-    list-style: none;
+    list-style:none;
  }
 
 h1{
     color:darkred;
 }
 
-.recipe-content {
-    background-color: #fffafa;
+p{
+     margin-bottom: 20px;
+}
+
+.container{
+    width:800px;
+    margin:20px auto;
+    background-color:#fffafa ;
     text-align: center;
+    display:inline-block;
+}
+
+.recipe-content {
+    padding:20px;
+    display:inline-block;
+    width:580px;
+}
+
+.recipe-card{
+    background-color:darkred;
+    margin: auto;
+    padding: 0px;
+    border:5px solid;
+    text-align: auto;
+    height: auto;
+    width:500px;
+    display:inline-block;
+}
+
+.recipe-card a{
+    margin: 20px auto;
+    padding:10px 12px 10px 12px;
+    text-decoration:underline;
+    color:black;
 }
